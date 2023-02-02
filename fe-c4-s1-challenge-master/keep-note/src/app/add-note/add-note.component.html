@@ -1,0 +1,14 @@
+<mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="plus"></mat-icon>
+<div style="margin:100px 0px 0px 600px;">
+<form>
+<input [(ngModel)]="note.id" type="text" placeholder="Note id" #id>
+<br>
+<input [(ngModel)]="note.title" type="text" placeholder="Note Title" name="title" #title>
+<br>
+<input [(ngModel)]="note.content"type="text" placeholder="Note content" name="content" #content>
+<br>
+<button (click)="saveNote()">Save</button>
+
+</form>
+</div>
+
